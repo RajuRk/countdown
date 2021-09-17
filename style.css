@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center!important;
+    background-color: #0c67b7!important;
+    font-family: 'Pacifico', cursive!important;
+}
+#count{
+    font-size: 6em;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    color: #ffffff;
+    animation: zoom-in 1s ease infinite;
+}
+
+@keyframes zoom-in {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+}
